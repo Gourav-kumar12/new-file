@@ -112,4 +112,8 @@ button:hover {
         display: table-row;
         
     }
+        .img img{
+        margin-top: 25px;
+    }
+
 }
