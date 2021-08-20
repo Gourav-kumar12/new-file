@@ -13,11 +13,12 @@
   background: #e1f5fe;
 }
 .container{
-    
+     padding: 78px;
     background-color: #7e57c2;
 }
 h1{
     font-weight: 700;
+    padding: 12px;
 }
 .container{
     padding: 78px;
@@ -30,7 +31,7 @@ h1{
     display: flex;
     background: white;
     border-radius: 58px;
-    height: 728px;
+    height: 628px;
     width: 1000px;
 }
 .img{
@@ -55,11 +56,6 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
 button {
   background-color: #347bee;
   color: white;
@@ -71,7 +67,7 @@ button {
   opacity: 0.9;
 }
 form{
-    width: 462px;
+    width: 422px;
     padding: 41px;
     display: block;
     padding: auto;
@@ -109,11 +105,14 @@ button:hover {
 }
 @media screen and (max-width: 935px) {
     .container3{
-        display: table-row;
-        
+        display: table-row;  
     }
-        .img img{
+    .img img{
         margin-top: 25px;
     }
-
+}
+@media screen and (max-width: 585px) {
+  .container{
+      padding: 0px;
+  }
 }
